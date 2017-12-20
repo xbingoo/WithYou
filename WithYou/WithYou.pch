@@ -1,0 +1,44 @@
+//
+//  WithYou.pch
+//  WithYou
+//
+//  Created by jianke-mbp on 15/11/28.
+//  Copyright © 2015年 少先队. All rights reserved.
+//
+
+#ifndef WithYou_pch
+#define WithYou_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#endif /* WithYou_pch */
+
+#ifdef __OBJC__
+
+#import "ReuseTool.h"
+#import "PureLayout.h"
+#import "JKSystemHelper.h"
+#import "HttpTool.h"
+#import "JKUserDefaults.h"
+
+
+//开发者相关
+
+#define kBaiDuAK @"FaxfLemPXW1iaOSfP0xFi0zO"
+
+//应用主题相关
+
+#define kThemeColor @"ff4d81"
+
+//设备相关信息
+
+#define kScreenW [UIScreen mainScreen].bounds.size.width
+
+#define kScreenH [UIScreen mainScreen].bounds.size.height
+
+#define kChangeFoodBtnAnimation @"changeFoodBtnAnimation"
+
+
+#endif
+
+
